@@ -7,6 +7,9 @@
 //
 
 #import "KKAppDelegate.h"
+#import "KKSwipeViewController.h"
+#import "KKHomeViewController.h"
+#import "KKProfileViewController.h"
 
 @implementation KKAppDelegate
 
@@ -14,6 +17,13 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    KKHomeViewController *homeController = [[KKHomeViewController alloc] initWithRowImage:[UIImage imageNamed:@"home.png"] andTitle:@"Home"];
+    KKProfileViewController *profileController = [[KKProfileViewController alloc] initWithRowImage:[UIImage imageNamed:@"settings.png"] andTitle:@"Settings"];
+    
+    KKSwipeViewController *swipeController = [[KKSwipeViewController alloc] init];
+    [swipeController setViewControllerItems:[NSArray arrayWithObjects:homeController, profileController, nil]];
+    
+    self.window.rootViewController = swipeController;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

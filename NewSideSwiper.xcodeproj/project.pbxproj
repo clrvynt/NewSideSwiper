@@ -16,6 +16,19 @@
 		2608B55C174528E30078C1AD /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2608B55B174528E30078C1AD /* Default.png */; };
 		2608B55E174528E30078C1AD /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2608B55D174528E30078C1AD /* Default@2x.png */; };
 		2608B560174528E30078C1AD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2608B55F174528E30078C1AD /* Default-568h@2x.png */; };
+		2608B569174529310078C1AD /* KKSwipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2608B568174529310078C1AD /* KKSwipeViewController.m */; };
+		2608B56C17455A2F0078C1AD /* KKScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2608B56B17455A2F0078C1AD /* KKScrollView.m */; };
+		2608B56F17455A7F0078C1AD /* KKTransparentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2608B56E17455A7E0078C1AD /* KKTransparentView.m */; };
+		2608B57217455AD70078C1AD /* KKLeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2608B57117455AD70078C1AD /* KKLeftViewController.m */; };
+		2608B57517455B590078C1AD /* KKBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2608B57417455B580078C1AD /* KKBaseViewController.m */; };
+		2608B5771745677C0078C1AD /* swipelist.png in Resources */ = {isa = PBXBuildFile; fileRef = 2608B5761745677C0078C1AD /* swipelist.png */; };
+		2608B57C174568010078C1AD /* KKHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2608B57A174568010078C1AD /* KKHomeViewController.m */; };
+		2608B57D174568010078C1AD /* KKHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2608B57B174568010078C1AD /* KKHomeViewController.xib */; };
+		2608B581174568610078C1AD /* KKProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2608B57F174568610078C1AD /* KKProfileViewController.m */; };
+		2608B582174568610078C1AD /* KKProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2608B580174568610078C1AD /* KKProfileViewController.xib */; };
+		2608B586174568F70078C1AD /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 2608B584174568F70078C1AD /* settings.png */; };
+		2608B587174568F70078C1AD /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 2608B585174568F70078C1AD /* home.png */; };
+		2608B5B01746E3AC0078C1AD /* whiteglow.png in Resources */ = {isa = PBXBuildFile; fileRef = 2608B5AF1746E3AC0078C1AD /* whiteglow.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +45,26 @@
 		2608B55B174528E30078C1AD /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		2608B55D174528E30078C1AD /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		2608B55F174528E30078C1AD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		2608B567174529310078C1AD /* KKSwipeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKSwipeViewController.h; sourceTree = "<group>"; };
+		2608B568174529310078C1AD /* KKSwipeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKSwipeViewController.m; sourceTree = "<group>"; };
+		2608B56A17455A2F0078C1AD /* KKScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKScrollView.h; sourceTree = "<group>"; };
+		2608B56B17455A2F0078C1AD /* KKScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKScrollView.m; sourceTree = "<group>"; };
+		2608B56D17455A7E0078C1AD /* KKTransparentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKTransparentView.h; sourceTree = "<group>"; };
+		2608B56E17455A7E0078C1AD /* KKTransparentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKTransparentView.m; sourceTree = "<group>"; };
+		2608B57017455AD60078C1AD /* KKLeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKLeftViewController.h; sourceTree = "<group>"; };
+		2608B57117455AD70078C1AD /* KKLeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKLeftViewController.m; sourceTree = "<group>"; };
+		2608B57317455B580078C1AD /* KKBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKBaseViewController.h; sourceTree = "<group>"; };
+		2608B57417455B580078C1AD /* KKBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKBaseViewController.m; sourceTree = "<group>"; };
+		2608B5761745677C0078C1AD /* swipelist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = swipelist.png; sourceTree = "<group>"; };
+		2608B579174568010078C1AD /* KKHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKHomeViewController.h; sourceTree = "<group>"; };
+		2608B57A174568010078C1AD /* KKHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKHomeViewController.m; sourceTree = "<group>"; };
+		2608B57B174568010078C1AD /* KKHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KKHomeViewController.xib; sourceTree = "<group>"; };
+		2608B57E174568610078C1AD /* KKProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKProfileViewController.h; sourceTree = "<group>"; };
+		2608B57F174568610078C1AD /* KKProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKProfileViewController.m; sourceTree = "<group>"; };
+		2608B580174568610078C1AD /* KKProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KKProfileViewController.xib; sourceTree = "<group>"; };
+		2608B584174568F70078C1AD /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
+		2608B585174568F70078C1AD /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		2608B5AF1746E3AC0078C1AD /* whiteglow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteglow.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +111,9 @@
 		2608B54F174528E30078C1AD /* NewSideSwiper */ = {
 			isa = PBXGroup;
 			children = (
+				2608B583174568AF0078C1AD /* Images */,
+				2608B578174567E80078C1AD /* View Controllers */,
+				2608B566174528F80078C1AD /* SideSwiper */,
 				2608B558174528E30078C1AD /* KKAppDelegate.h */,
 				2608B559174528E30078C1AD /* KKAppDelegate.m */,
 				2608B550174528E30078C1AD /* Supporting Files */,
@@ -97,6 +133,47 @@
 				2608B55F174528E30078C1AD /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2608B566174528F80078C1AD /* SideSwiper */ = {
+			isa = PBXGroup;
+			children = (
+				2608B5AF1746E3AC0078C1AD /* whiteglow.png */,
+				2608B5761745677C0078C1AD /* swipelist.png */,
+				2608B567174529310078C1AD /* KKSwipeViewController.h */,
+				2608B568174529310078C1AD /* KKSwipeViewController.m */,
+				2608B56A17455A2F0078C1AD /* KKScrollView.h */,
+				2608B56B17455A2F0078C1AD /* KKScrollView.m */,
+				2608B56D17455A7E0078C1AD /* KKTransparentView.h */,
+				2608B56E17455A7E0078C1AD /* KKTransparentView.m */,
+				2608B57017455AD60078C1AD /* KKLeftViewController.h */,
+				2608B57117455AD70078C1AD /* KKLeftViewController.m */,
+				2608B57317455B580078C1AD /* KKBaseViewController.h */,
+				2608B57417455B580078C1AD /* KKBaseViewController.m */,
+			);
+			name = SideSwiper;
+			sourceTree = "<group>";
+		};
+		2608B578174567E80078C1AD /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2608B579174568010078C1AD /* KKHomeViewController.h */,
+				2608B57A174568010078C1AD /* KKHomeViewController.m */,
+				2608B57B174568010078C1AD /* KKHomeViewController.xib */,
+				2608B57E174568610078C1AD /* KKProfileViewController.h */,
+				2608B57F174568610078C1AD /* KKProfileViewController.m */,
+				2608B580174568610078C1AD /* KKProfileViewController.xib */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		2608B583174568AF0078C1AD /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				2608B584174568F70078C1AD /* settings.png */,
+				2608B585174568F70078C1AD /* home.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +232,12 @@
 				2608B55C174528E30078C1AD /* Default.png in Resources */,
 				2608B55E174528E30078C1AD /* Default@2x.png in Resources */,
 				2608B560174528E30078C1AD /* Default-568h@2x.png in Resources */,
+				2608B5771745677C0078C1AD /* swipelist.png in Resources */,
+				2608B57D174568010078C1AD /* KKHomeViewController.xib in Resources */,
+				2608B582174568610078C1AD /* KKProfileViewController.xib in Resources */,
+				2608B586174568F70078C1AD /* settings.png in Resources */,
+				2608B587174568F70078C1AD /* home.png in Resources */,
+				2608B5B01746E3AC0078C1AD /* whiteglow.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +250,13 @@
 			files = (
 				2608B556174528E30078C1AD /* main.m in Sources */,
 				2608B55A174528E30078C1AD /* KKAppDelegate.m in Sources */,
+				2608B569174529310078C1AD /* KKSwipeViewController.m in Sources */,
+				2608B56C17455A2F0078C1AD /* KKScrollView.m in Sources */,
+				2608B56F17455A7F0078C1AD /* KKTransparentView.m in Sources */,
+				2608B57217455AD70078C1AD /* KKLeftViewController.m in Sources */,
+				2608B57517455B590078C1AD /* KKBaseViewController.m in Sources */,
+				2608B57C174568010078C1AD /* KKHomeViewController.m in Sources */,
+				2608B581174568610078C1AD /* KKProfileViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
